@@ -1,39 +1,172 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Yuzheng Wu</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yuzheng Wu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      line-height: 1.6;
+      color: #222;
+      background-color: #f7f7f7;
+    }
+
+    .container {
+      background: white;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    }
+
+    .profile {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .profile img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    h1 {
+      margin-bottom: 5px;
+    }
+
+    .subtitle {
+      color: #555;
+      font-size: 1.1em;
+    }
+
+    .section {
+      margin-top: 35px;
+    }
+
+    .links a {
+      display: inline-block;
+      margin-right: 12px;
+      margin-bottom: 10px;
+      padding: 8px 14px;
+      background: #eef2f7;
+      color: #1a3d6d;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+
+    .links a:hover {
+      background: #dce8f5;
+    }
+
+    .gallery {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .gallery img {
+      width: 260px;
+      border-radius: 12px;
+      object-fit: cover;
+    }
+
+    .qrcode {
+      width: 160px;
+      border-radius: 8px;
+    }
+
+    footer {
+      margin-top: 40px;
+      color: #777;
+      font-size: 0.9em;
+    }
+  </style>
 </head>
 
 <body>
+  <div class="container">
 
-<h1>Yuzheng Wu</h1>
+    <div class="profile">
+      <img src="assets/images/profile.jpg" alt="Profile photo of Yuzheng Wu">
 
-<p>
-PhD in Biotechnology
-</p>
+      <div>
+        <h1>Yuzheng Wu</h1>
+        <p class="subtitle">
+          PhD in Biotechnology · Bioimaging Data Curation
+        </p>
+        <p>
+          Exploring bioimaging data curation, artificial intelligence,
+          software development, and human-centered technology.
+        </p>
+      </div>
+    </div>
 
-<p>
-Scientific Data Specialist
-</p>
+    <div class="section">
+      <h2>About Me</h2>
+      <p>
+        I am a biotechnology researcher and data curation based in Japan.
+        My interests include bioimaging databases, scientific data curation,
+        AI-assisted workflows, data science, and technologies that improve life science research.
+      </p>
+    </div>
 
-<p>
-Exploring AI, Software Development, and Human-Centered Technology
-</p>
+    <div class="section">
+      <h2>Research & Interests</h2>
+      <ul>
+        <li>Bioimaging data curation</li>
+        <li>Scientific data management</li>
+        <li>AI-assisted research workflows</li>
+        <li>Software development for research support</li>
+        <li>Human-centered technology</li>
+      </ul>
+    </div>
 
-<hr>
+    <div class="section">
+      <h2>Links & SNS</h2>
+      <div class="links">
+        <a href="https://github.com/DoctorDreamer-8" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/yuzheng-wu-67a307212/" target="_blank">LinkedIn</a>
+      </div>
+    </div>
 
-<h2>About Me</h2>
+    <div class="section">
+      <h2>Public Account / Personal Media</h2>
+      <p>
+        I also share thoughts on science, technology, AI, and personal development
+        through my personal media channels.
+      </p>
 
-<p>
-I am a biotechnology researcher and scientific data specialist based in Japan.
-I am interested in biology, artificial intelligence, data science, and technology that improves human life.
-</p>
+      <p>
+        WeChat Official Account / 公众号:
+        <strong>吳蘇慕</strong>
+      </p>
 
-<h2>Contact</h2>
+      <img class="qrcode" src="assets/images/qrcode-wechat.jpg" alt="WeChat official account QR code">
+    </div>
 
-<p>
-Email: yuzheng.wu0705@gmail.com
-</p>
+    <div class="section">
+      <h2>Gallery</h2>
+      <div class="gallery">
+        <img src="assets/images/research.jpg" alt="Research image">
+        <img src="assets/images/banner.jpg" alt="Personal website banner">
+      </div>
+    </div>
 
+    <div class="section">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:yuzheng.wu@riken.com">yuzheng.wu@riken.com</a></p>
+    </div>
+
+    <footer>
+      © 2026 Yuzheng Wu
+    </footer>
+
+  </div>
 </body>
 </html>
